@@ -1,0 +1,31 @@
+function addNumbers(first, second){
+    console.log("Adding Numbers: " + (first + second));
+}
+
+function subNumbers(first, second){
+    console.log("Subtracting Numbers: " + (first - second));
+}
+
+function multNumbers(first, second){
+    console.log("Multiplying Numbers: " + (first * second));
+}
+
+function divNumbers(first, second){
+    console.log("Dividing numbers: " + (first / second));
+}
+
+function myDriver(){
+console.log("We want to add: " + 1 + "," + 2);
+console.log(addNumbers(1,2));
+
+console.log("We want to subtract: " + 4 + "," + 2);
+console.log(subNumbers(4,2));
+
+console.log("We want to multiply: " + 6 + "," + 3);
+console.log(multNumbers(6,3));
+
+console.log("We want to divide: " + 12 + "," + 6);
+console.log(divNumbers(12,6));
+}
+
+myDriver();
