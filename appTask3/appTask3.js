@@ -49,7 +49,7 @@ function createItem(itemValue) {
 }
 
 // Our more robust removal process is now its own function
-function removeItem(item) {
+$("#buttonElement2").on("click", function() {
 
   // first we need to get the index of our item in the list
   let index = $(item).index();
